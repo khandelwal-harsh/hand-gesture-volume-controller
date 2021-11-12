@@ -1,0 +1,16 @@
+*test
+*data
+*pycache*
+/data
+__pycache__/config.cpython-37.pyc
+logging/__pycache__/ams_logger.cpython-37.pyc
+/__pycache__/
+/*json/
+*.zip
+.vscode
+
+# env file
+.env
+
+# logs file
+*.log

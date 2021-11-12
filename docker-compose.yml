@@ -1,0 +1,8 @@
+version: "3"
+services:
+  hand-gesture-volume-controller:
+    # image: hand-gesture-volume-controller
+    build: .
+    command: python main.py
+    devices:
+      - /dev/video0:/dev/video0
